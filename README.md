@@ -1,3 +1,3 @@
 # projetos
  
-##Projetos que fiz para praticar as tecnologias
+## Projetos que fiz para praticar as tecnologias
