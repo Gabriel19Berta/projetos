@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family: Roboto, sans-serif;
+}
+
+.informacao {
+    color: white;
+    background-image: linear-gradient(#6844FF, #312BE5);
+    border-radius: 0 0 40px 40px;
+}
+
+.titulo-informacao {
+    color: rgba(255, 255, 255, 0.650);
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+.numero-informacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#4C21C8, #4734F0);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.numero-informacao-grande {
+    font-size: 3.5em;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.numero-informacao-pequeno {
+    color: rgba(255, 255, 255, 0.650);
+}
+
+.titulo-situacao {
+    text-align: center;
+    margin: 25px 0 10px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.descricao {
+    color: rgba(255, 255, 255, 0.650);
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 1.05em;
+    width: 80%;
+    margin: auto;
+}
+
+.resumo{
+    margin-top: 20px;
+    color: #404754;
+    font-size: 1.1em;
+    text-indent: 2em;
+}
+
+.estatistica {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.reacao-conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF6F5;
+    padding: 17px;
+    border-radius: 15px;
+    width: 80%;
+    margin-top: 30px;
+}
+
+.reacao-texto {
+    color: #ff6161;
+    font-size: 1.1em;
+}
+
+.reacao-texto > p {
+    display: flex;
+}
+
+.icone {
+    padding-right: 10px;
+}
+
+.cem {
+    color: rgba(0, 0, 0, 0.432);
+}
+
+.memoria-conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFBF2;
+    padding: 17px;
+    border-radius: 15px;
+    width: 80%;
+}
+
+.memoria-texto {
+    color: #F4C871;
+    font-size: 1.1em;
+}
+
+.memoria-texto > p {
+    display: flex;
+}
+
+.verbal-conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2FAFA;
+    padding: 17px;
+    border-radius: 15px;
+    width: 80%;
+}
+
+.verbal-texto {
+    color: #82DFC6;
+    font-size: 1.1em;
+}
+
+.verbal-texto > p {
+    display: flex;
+}
+
+.visual-conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F3F3FD;
+    padding: 17px;
+    border-radius: 15px;
+    width: 80%;
+}
+
+.visual-texto {
+    color: #4849AB;
+    font-size: 1.1em;
+}
+
+.visual-texto > p {
+    display: flex;
+}
+
+.botao {
+    margin-top: 20px;
+    text-align: center;
+}
+
+input[type=button] {
+    color: white;
+    background-color: #303B59;
+    border: none;
+    font-size: 1.3em;
+    font: 1.2em Roboto, sans-serif;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 30px;
+    width: 88%;
+}
+
+input[type=button]:hover {
+    background-color: #303b59ef;
+    cursor: pointer;
+}
+
+@media (min-width:769px) {
+    .conteiner {
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 700px;
+        box-shadow: 0 0 10px #442cde42;
+        border-radius: 20px;
+    }
+
+    .informacao {
+        width: 50%;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo-informacao {
+        margin-top: 10px;
+    }
+
+    .numero-informacao {
+        width: 200px;
+        height: 200px;
+    }
+
+    .numero-informacao-grande {
+        font-size: 4em;
+    }
+
+    .numero-informacao-pequeno {
+        font-size: 1.2em;
+    }
+
+    .titulo-situacao {
+        margin-bottom: 50px;
+        font-size: 1.2em;
+    }
+
+    .descricao {
+        margin: auto;
+        width: 80%;
+        font-size: 1.1em;
+    }
+
+    .informacao-numero {
+        width: 50%;
+    }
+
+    .botao {
+        display: flex;
+        margin: 20px;
+        width: 100%;
+    }
+}
