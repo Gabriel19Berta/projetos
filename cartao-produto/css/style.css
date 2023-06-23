@@ -53,12 +53,12 @@ img {
 .nome-produto {
     font-family: var(--font-serifada);
     margin: 20px 0;
+    font-size: 1.4em;
 }
 
 .descricao-produto {
     color: var(--cor-azul-acinzentado);
     font-family: var(--font-padrao);
-    font-size: 14px;
     margin: 20px 0;
 }
 
@@ -94,5 +94,5 @@ button {
     border-radius: 10px;
     padding: 20px;
     width: 100%;
-    margin-bottom: 20px;
+    margin: 10px 0 20px 0;
 }
