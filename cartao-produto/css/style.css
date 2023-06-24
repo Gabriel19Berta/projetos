@@ -21,7 +21,6 @@
 body {
     background-color: hsl(30, 38%, 92%);
     margin: 20px 0;
-    height: 90%;
 }
 
 .conteiner {
@@ -50,20 +49,20 @@ img {
 
 .tipo-produto {
     font-family: var(--font-padrao);
-    font-size: 14px;
+    font-size: 13px;
     color: var(--cor-azul-acinzentado);
 }
 
 .nome-produto {
     font-family: var(--font-serifada);
     margin: 20px 0;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .descricao-produto {
     color: var(--cor-azul-acinzentado);
     font-family: var(--font-padrao);
-    font-size: .90em;
+    font-size: .80em;
     margin: 20px 0;
 }
 
@@ -77,7 +76,7 @@ img {
 .valor-desconto {
     color: var(--cor-verde-escuro);
     font-family: var(--font-serifada);
-    font-size: 2.1em;
+    font-size: 2em;
 }
 
 .valor-real {
