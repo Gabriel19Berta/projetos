@@ -8,7 +8,6 @@
 
 body {
     font-family: Roboto, sans-serif;
-    height: 80%;
 }
 
 .informacao {
@@ -48,21 +47,21 @@ body {
 
 .titulo-situacao {
     text-align: center;
-    margin: 25px 0 10px 0;
+    margin: 12px 0 10px 0;
     font-family: 'Open Sans', sans-serif;
 }
 
 .descricao {
     color: rgba(255, 255, 255, 0.650);
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     font-size: 1.05em;
     width: 80%;
     margin: auto;
 }
 
 .resumo{
-    margin-top: 20px;
+    margin-top: 15px;
     color: #404754;
     font-size: 1.1em;
     text-indent: 2em;
@@ -71,7 +70,7 @@ body {
 .estatistica {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 20px;
     align-items: center;
     font-weight: bold;
 }
@@ -84,7 +83,7 @@ body {
     padding: 17px;
     border-radius: 15px;
     width: 80%;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .reacao-texto {
@@ -183,6 +182,8 @@ input[type=button]:hover {
     cursor: pointer;
 }
 
+
+/* laptops e telas maiores */
 @media (min-width:769px) {
     .conteiner {
         display: flex;
