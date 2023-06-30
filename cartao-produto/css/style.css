@@ -104,4 +104,56 @@ button {
 button:hover {
     transform: translateY(-1px);
     background-color: hsl(158, 36%, 29%);
-} 
+}
+
+@media (min-width: 720px) {
+    .conteiner {
+        display: flex;
+        width: 700px;
+        height: 600px;
+    }
+
+    .imagem-conteiner {
+        background-image: url(../images/desktop.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+        border-radius: 10px 0 0 10px;
+    }
+
+    img {
+        opacity: 0;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .texto-conteiner {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 20px 0 20px;
+    }
+
+    .tipo-produto {
+        padding-top: 30px;
+        font-size: 1.1em;
+    }
+
+    .nome-produto {
+        font-size: 1.5em;
+    }
+
+    .descricao-produto {
+        font-size: 1.1em;
+    }
+
+    .valor-desconto {
+        font-size: 2.5em;
+    }
+
+    .valor-real {
+        font-size: 1.1em;
+    }
+
+    button {
+        font-size: 1.2em;
+    }
+}
