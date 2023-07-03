@@ -106,10 +106,19 @@ button:hover {
     background-color: hsl(158, 36%, 29%);
 }
 
-@media (min-width:481) {
-    
+/* ========= TABLETS ========= */
+@media (min-width:481px) {
+    .conteiner {
+        width: 80%;
+    }
+
+    .imagem-conteiner {
+        background-position: top;
+
+    }
 }
 
+/* ========= LAPTOPS ========= */
 @media (min-width: 769px) {
     .conteiner {
         display: flex;
